@@ -14,8 +14,8 @@ Link = require('./model/link');
 // Connect to Mongoose and set connection variable
 // mongodb atlas free cluster
 //mongodb+srv://rob:<password>@cluster0-qwcgx.mongodb.net/test?retryWrites=true&w=majority
-//mongoose.connect('mongodb+srv://rob:U7fe3GdNldJ5l79A@cluster0-qwcgx.mongodb.net/test?retryWrites=true&w=majority', function (err) {
-mongoose.connect('mongodb://localhost/referredbyme', function (err) {
+mongoose.connect('mongodb+srv://rob:U7fe3GdNldJ5l79A@cluster0-qwcgx.mongodb.net/referredbyme?retryWrites=true&w=majority', function (err) {
+// mongoose.connect('mongodb://localhost/referredbyme', function (err) {
  
     if (err) throw err;
   
